@@ -61,7 +61,7 @@ public class User {
     }
     @Override
     public String toString() {
-        return String.format("User = {name: %s, lastName %s age: %d years, }",
+        return String.format("User = {name: %s, lastName: %s, age: %d years }",
                 this.getName(), this.getLastName(), this.getAge());
     }
 }
