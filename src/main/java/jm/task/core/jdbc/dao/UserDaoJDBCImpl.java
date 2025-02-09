@@ -133,6 +133,9 @@ public class UserDaoJDBCImpl implements UserDao {
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
+        for (User user : users) {
+            System.out.println(user);
+        }
         return users;
     }
 
